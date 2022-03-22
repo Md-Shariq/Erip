@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+.carousel-dots .carousel-dot-active {
+    background-color: gray !important;
+}
+.carousel-dot {
+    border: 2px solid gray !important;
+    width: 9px;
+    height: 9px;
+}
+.carousel-container {
+    width: 75% !important;
+}
+.carousel-cells .carousel-cell {
+     /* width: 100px !important;  */
+    display: flex;
+    justify-content: center;
+}
+
+
+ @media only screen and (max-width: 768px) {
+    .carousel-arrow-next {
+        display: none;
+     }
+     .carousel-arrow-prev {
+         display: none;
+      }
+      .carousel-container {
+        width: 100% !important;
+    }
+      /* .carousel-cells .carousel-cell {
+        width: 100px !important; 
+      } */
+ }
